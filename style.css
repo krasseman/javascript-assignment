@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 50px 0px;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+#header{
+    height: 70px;
+    width: 100vw;
+    background-color: #212121;
+    position: fixed;
+    top: 0px;
+    color: white;
+}
+#header h1{
+    margin: 15px 15px 15px 15px;
+    float: left;    
+
+    
+}
+
+#header a {
+    color:white;
+    text-decoration:none;
+}
+
+#shoppingcart {
+    color:white;
+}
+
+#counter {
+    float:right;
+    margin:25px 25px 10px 1px;
+    font-size:30px;
+
+    
+}
+
+.fa-shopping-cart {
+
+    color:white;
+    font-size:40px;
+    float:right;
+    margin: 15px 10px 15px 15px;
+
+}
+
+
+
+#content h1 {
+    font-size:120px;
+    text-align:center;
+}
+.mainClass{
+    
+    margin: 0 auto;
+
+    
+
+}
+.productClass{
+    
+    text-align: center; 
+    color: #212121;
+    background: linear-gradient(#fff, #F5F5F5);
+    
+}
+
+.productClass h1{
+    font-size: 3.5vw;
+    padding-top: 3vw;
+    
+}
+.productClass h2{
+    font-size: 1vw;
+}
+.productClass img{
+    
+    height: 50vh;
+}
+.productClass p{
+    font-size: 1.3vw;
+    margin-top: 0px;
+    margin-bottom: 1.5vw;
+}
+.productClass button{
+    background-color: #5596F5;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5vw;
+    width: 22vw;
+    height: 3vw;
+    margin-bottom: 5vw;
+    
+    
+    font-size: 1.3vw;
+}
