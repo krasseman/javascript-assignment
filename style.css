@@ -100,8 +100,57 @@ body {
     font-size: 1.3vw;
 }
 
-@media screen and (min-width: 640px) {
-    body {
-        font-size:1.6em;
+@media only screen and (max-width: 768px) {
+    .productClass p, .productClass h1 {
+       font-size: 28px;
     }
-}
+ }
+ 
+ @media only screen and (max-width: 320px) {
+    .productClass p, productClass h1 {
+      font-size: 28px;
+    }
+ }
+
+
+ @media only screen and (max-width: 768px) {
+   .productClass h2 {
+       font-size: 14px;
+    }
+ }
+ 
+ @media only screen and (max-width: 320px) {
+   .productClass h2 {
+      font-size: 14px;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+  .productClass button {
+      
+    background-color: #5596F5;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5vw;
+    width: 32vw;
+    height: 9vw;
+    margin-bottom: 5vw;
+    font-size: 3vw;
+    }
+ }
+ 
+ @media only screen and (max-width: 320px) {
+    .productClass button  {
+        background-color: #5596F5;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 0.5vw;
+        width: 32vw;
+        height: 9vw;
+        margin-bottom: 5vw;
+        font-size: 3vw;
+    }
+ }
+
